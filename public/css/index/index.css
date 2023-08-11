@@ -1,0 +1,8 @@
+@media (min-width: 390px) {
+    .imagen_logos {
+      max-width: 150px;
+    }
+    .logos_escudos{
+        max-width: 40px;
+    }
+  }

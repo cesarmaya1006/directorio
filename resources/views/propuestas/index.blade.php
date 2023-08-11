@@ -79,7 +79,7 @@
                                         @endif
                                         <div class="col-12 col-md-10 text-start mb-3">
                                             <h5>Propietario:
-                                                {{ ucfirst($propuesta->nombre) . ' ' . ucfirst($propuesta->nombre) }}</h5>
+                                                {{ ucfirst($propuesta->nombre) . ' ' . ucfirst($propuesta->apellido) }}</h5>
                                         </div>
                                         @if ($propuesta->direccion)
                                             <div class="col-12 col-md-10 text-start mb-1">

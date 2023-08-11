@@ -27,15 +27,13 @@
         href="{{ asset('lte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('lte/dist/css/adminlte.min.css') }}">
-
-
-
     <!-- Titulo -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Directorio Empresarial</title>
     <link rel="stylesheet" href="{{ asset('css/general.css') }}">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/index/index.css') }}">
 
 </head>
 
@@ -51,16 +49,18 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-6 d-flex flex-row align-items-center">
-                    <img class="img-fluid" src="{{ asset('imagenes/sistema/colombia.png') }}"
-                        style="max-height: 60px;width: auto;">
-                    <img class="img-fluid" src="{{ asset('imagenes/sistema/funza.png') }}"
-                        style="max-height: 60px;width: auto;">
+                    <div class="imagenes_logos d-flex flex-column flex-sm-row">
+                        <img class="img-fluid logos_escudos" src="{{ asset('imagenes/sistema/colombia.png') }}"
+                            style="max-height: 60px;width: auto;">
+                        <img class="img-fluid logos_escudos" src="{{ asset('imagenes/sistema/funza.png') }}"
+                            style="max-height: 60px;width: auto;">
+                    </div>
                     <h4>Alcaldía Municipal de Funza Cundinamarca</h4>
                 </div>
-                <div class="col-12 col-md-6 d-flex flex-row align-items-center justify-content-end">
-                    <img class="img-fluid" src="{{ asset('imagenes/sistema/logo1.png') }}"
+                <div class="col-12 col-md-6 d-flex flex-row align-items-center justify-content-sm-end justify-content-around">
+                    <img class="img-fluid imagen_logos" src="{{ asset('imagenes/sistema/logo1.png') }}"
                         style="max-height: 100px;width: auto;">
-                    <img class="img-fluid" src="{{ asset('imagenes/sistema/logo2.png') }}"
+                    <img class="img-fluid imagen_logos" src="{{ asset('imagenes/sistema/logo2.png') }}"
                         style="max-height: 100px;width: auto;">
                 </div>
             </div>
