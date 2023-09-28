@@ -57,7 +57,8 @@
                     </div>
                     <h4>Alcaldía Municipal de Funza Cundinamarca</h4>
                 </div>
-                <div class="col-12 col-md-6 d-flex flex-row align-items-center justify-content-sm-end justify-content-around">
+                <div
+                    class="col-12 col-md-6 d-flex flex-row align-items-center justify-content-sm-end justify-content-around">
                     <img class="img-fluid imagen_logos" src="{{ asset('imagenes/sistema/logo1.png') }}"
                         style="max-height: 100px;width: auto;">
                     <img class="img-fluid imagen_logos" src="{{ asset('imagenes/sistema/logo2.png') }}"
@@ -68,6 +69,9 @@
         <hr>
     </header>
     @yield ('cuerpo_pagina')
+    <footer class="d-flex flex-nowrap bg-black color-white w-100 pt-3 bp-3 text-center justify-content-center" style="font-size: 1.3em">
+        <strong>Copyright &copy; 2023 <a class="ml-4 mr-4" href="#" style="color: white">Universidad de la Salle - César Eduardo Maya</a></strong>All rights reserved.<div class="float-right d-none d-sm-inline-block"><b>Version</b> 1.0.0</div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
